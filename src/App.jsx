@@ -1,6 +1,7 @@
 import './App.css'
 import CreatePost from './components/CreatePost'
 import DataFetcher from './components/DataFetcher'
+import FetchAndDelete from './components/FetchAndDelete'
 import SingleData from './components/SingleData'
 function App() {
 
@@ -11,6 +12,8 @@ function App() {
       <SingleData/>
       <div>Form</div>
       <CreatePost/>
+      <div>Delete</div>
+      <FetchAndDelete/>
     </>
   )
 }
